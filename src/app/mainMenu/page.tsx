@@ -273,10 +273,7 @@ export default function MainMenuPage() {
                             <BlueButton text="Itinerario" onClick={() => { router.push('/itineraries') }} type="button" />
                             <BlueButton text="Registrar profesor" onClick={() => { router.push('/professor_register') }} type="button" />
                             <BlueButton text="Perfil estudiante" onClick={() => { router.push('/students_profile') }} type="button" />
-                            <BlueButton text="Calendario" onClick={() => { router.push('/calendario') }} type="button" />
-
                         </div>
-
                     </div>
                 </div>
                 <div className={styles.verticalLine}></div>
